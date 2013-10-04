@@ -3,13 +3,15 @@
   <title>Super Special Awesome Stock Ticker</title>
 </head>
 <body>
+	<div class="initial"></div>
+	<div class="pchange"></div>
 
 <!-- Put your html here -->
 	<div id="template">
 		<script type="template" class="stock">
 	
-		<strong>{{ name }}</strong>
-		<p>{{ price }}</p>
+		<strong>{{ symbol }}</strong>
+		<p id="price">{{ price }}</p>
 		
 		</script>
 	</div>
